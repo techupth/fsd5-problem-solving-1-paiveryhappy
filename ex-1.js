@@ -1,7 +1,9 @@
 //Exercise 1: Add Strings
 
 const addStrings = function (num1, num2) {
-  //Start coding here
+  let sum = 0;
+  sum = Number(num1) + Number(num2);
+  return sum;
 };
 
 const result1 = addStrings("11", "123");

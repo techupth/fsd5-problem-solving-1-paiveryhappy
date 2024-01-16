@@ -1,7 +1,7 @@
 //Exercise 2: Valid Palindrome
 
-const isPalindrome = function (s) {
-  //Start Coding here
+const isPalindrome = function (word) {
+  return word === word.split("").reverse().join("");
 };
 
 const result1 = isPalindrome("A man, a plan, a canal: Panama");
